@@ -1,0 +1,46 @@
+.main-page{
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  gap: 30px;
+  padding-top: 20px;
+}
+.left-page{
+  width: 70%;
+}
+.right-page{
+  width: 30%;
+}
+
+
+.left-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+  padding-left: 10px;
+}
+.left-page-head{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 10px;
+  padding-left: 10px;
+  gap: 10px;
+}
+.left-page-head-box{
+  cursor: pointer;
+}
+.left-page-head-box img{
+  width: 235px;
+}
+.left-page-head-box img:hover{
+  filter: brightness(70%);
+}
+.left-page-head-box p:hover{
+  text-decoration: underline;
+}
+.left-page-head-box p{
+  color: #abc4ed;
+  line-height: 15px;
+}
